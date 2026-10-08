@@ -9,7 +9,7 @@ DATA_DIR = os.path.join(SCRIPT_DIR, "data", "UCR")
 RESULTS_DIR = os.path.join(SCRIPT_DIR, "results")
 
 DATASETS = ["Computers"]
-SEEDS = [21]
+SEEDS = list(range(1, 31))
 
 POPULATION = 100
 GENERATION = 50
