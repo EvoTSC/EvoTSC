@@ -2,7 +2,7 @@
 
 This repository contains the code of the paper "EvoTSC: Evolving Feature Learning Models for Time Series Classification via Genetic Programming".
 
-- `run_EvoTSC.py`: runs EvoTSC to evolve a feature learning model on a dataset.
+- `run_EvoTSC.py`: runs EvoTSC to evolve a feature learning model on a dataset. Random seeds 1–30 are used in the experiments.
 - `run_evolved_model.py`: applies an evolved model to a dataset and reports its test accuracy.
 - `trained_models.csv`: the evolved feature learning model (best individual) of each dataset.
 
